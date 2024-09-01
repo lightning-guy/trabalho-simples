@@ -1,0 +1,61 @@
+/*reset simples para deixar a pagina o mais limpa possivel */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilo geral body*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/*nav simples*/
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/*seções simples*/
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h1 {
+    margin-bottom: 1rem;
+}
+
+/*rodapé*/
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+/*only inlgish names on project 4 learn, remember.*/
